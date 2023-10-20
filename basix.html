@@ -66,9 +66,37 @@
             }
 
 
-            header {
-
+            .header {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: white;
+            padding: 15px;
+            border-color: antiquewhite;
+            border-style: solid;
+            border-radius: 3px;
+            text-align: center;
             }
+
+            .menu ul {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            }
+            .menu li {
+            padding: 8px;
+            margin-bottom: 7px;
+            color: white;
+            border-color: antiquewhite;
+            border-style: solid;
+            border-radius: 3px;
+            text-align: center;
+            }
+            .menu li:hover {
+            background-color: green;
+            }
+
+
+
 
             footer {
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -87,15 +115,31 @@
     </head> <!-- end of the head -->
 
 
-    <body class="col-11">  <!-- beginning of the head -->
+    <body>  <!-- beginning of the head -->
             <!-- H1 to H6 head text size inside body -->
             <!-- insert image like this with a filter: <img id="blur" src="molen.jpeg" alt="molen"> 
             or like this without a filter: <img src="molen.jpeg" alt="molen" id="molen"> -->
             <!-- div class="col-12" max width -->
 
 
-            <header>
+            <div class="header">
             <!-- insert page links: <a href="index.html" id="index">Index</a> -->
+            <h1>mijn pagina</h1>
+            </div>
+            <div class="row">
+                <div class="col-2 menu">
+                    <ul>
+                        <li>Home</li>
+                        <li>pagina 2</li>
+                        <li>pagina 3</li>
+                        <li>pagina 4</li>
+                    </ul>
+                </div>
+                <div class="col-9">
+                    <h1>welkom</h1>
+                </div>
+            </div>
+            
             </header>
             
         

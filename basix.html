@@ -36,7 +36,12 @@
             width: 100%;
         }
 
-        @media only screen and (min-width: 768px)
+
+        @media only screen and (max-width: 600px), 
+            (min-width: 600px), 
+                (min-width: 768px), 
+                    (min-width: 992px), 
+                        (min-width: 1200px)
         
         {
         .col-1 {width: 8.33%;}
@@ -243,7 +248,7 @@
     </head> <!-- end of the head -->
 
 
-    <body>  <!-- beginning of the head -->
+    <body class="col-11">  <!-- beginning of the head -->
             <!-- H1 to H6 head text size inside body -->
             <!-- insert image like this with a filter: <img id="blur" src="molen.jpeg" alt="molen"> 
             or like this without a filter: <img src="molen.jpeg" alt="molen" id="molen"> -->
@@ -286,5 +291,4 @@
     </body>  <!-- end of the head -->
     
 
-</html>
-
+</html> 

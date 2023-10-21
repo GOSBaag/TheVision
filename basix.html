@@ -81,7 +81,9 @@
             list-style-type: none;
             margin: 0;
             padding: 0;
+            
             }
+
             .menu li {
             width: fit-content;
             min-width: 100px;
@@ -93,8 +95,38 @@
             border-radius: 3px;
             text-align: center;
             }
+            .menu li:link {
+            background-color: white;
+            }
+            .menu li:visited {
+            background-color: darkorange;
+            }
             .menu li:hover {
             background-color: darkmagenta;
+            }
+            .menu li:active {
+            background-color: red;
+            }
+            
+
+            #home {
+            text-decoration: none;
+            color: white;
+            }
+
+            #beats {
+            text-decoration: none;
+            color: white;
+            }
+
+            #fotos {
+            text-decoration: none;
+            color: white;
+            }
+
+            #contact {
+            text-decoration: none;
+            color: white;
             }
 
 
@@ -129,10 +161,10 @@
             <div class="row">
                 <div class="col-2 menu">
                     <ul>
-                        <li>Home</li>
-                        <li>Beats</li>
-                        <li>Foto's</li>
-                        <li>Contact</li>
+                        <li><a href="basix.html" id="home">Home</a></li>
+                        <li><a href="beats.html" id="beats">Beats</a></li>
+                        <li><a href="fotos.html" id="fotos">Foto's</a></li>
+                        <li><a href="contact.html" id="contact">Contact</a></li>
                     </ul>
                 </div>
                 <div class="col-9">
@@ -161,4 +193,3 @@
     
 
 </html>
-

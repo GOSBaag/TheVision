@@ -1,0 +1,57 @@
+
+
+        body {
+        font-family: Verdana, Tahoma, sans-serif;
+        margin: 0px 0px 0px 0px;
+        }
+    
+    
+        header {
+        background-color: dimgray;
+        text-align: center;
+        width: 100%;
+        top: 0%;
+        position: fixed;
+        }
+    
+    
+        li {
+        display: inline-block;
+        height: 20px;
+        width: 100px;
+        padding: 5px 5px 5px 5px;
+        text-align: center;
+        color: white;
+        background-color: dimgray;
+        border-radius: 5px;
+        border-color: ghostwhite;
+        border-style: groove;
+        }
+
+        ul a {
+        color: ghostwhite;
+        text-decoration: none;
+        }
+            
+        li:hover {
+        background-color: gray;
+        border-style: none;
+        font-weight: bold;
+        border-radius: 5px;
+        border-color: gold;
+        border-style: groove;
+        }
+            
+        
+    
+    
+        footer {
+        font-size: small;
+        width: 100%;
+        padding: 10px 10px 10px 10px;
+        position: fixed;
+        bottom: 0%;
+        background-color: dimgray;
+        color: ghostwhite;
+        text-align: left;
+        }

@@ -67,11 +67,13 @@
     width: fit-content;
     box-sizing: border-box;
     border-radius: 5px;
-    position: absolute;
+    position: fixed;
+    right: 0%;
+    top: 50%;
     bottom: 7%;
+    left: 33%;
     border-style: groove;
     border-color: navy;
-    
     }
 
 

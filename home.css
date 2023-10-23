@@ -1,0 +1,140 @@
+        body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0px 0px 0px 0px;
+        background: linear-gradient(to right, navy, royalblue, navy);
+        }
+    
+    
+        header {
+        background: linear-gradient(to right, navy, royalblue, navy);
+        text-align: center;
+        width: 100%;
+        top: 0%;
+        position: fixed;
+        height: 60px;
+        font-size: xx-large;
+        font-weight: bolder;
+        text-shadow: 2px 2px 5px midnightblue;
+        color: ghostwhite;
+        }
+
+        .line {
+        width: 100%;
+        background-color: midnightblue;
+        margin-top: 60px;
+        height: 30px;
+        border-width: 99%;
+        border-style: ridge;
+        border-color: navy;
+        border-left: none;
+        border-right: none;
+        }
+
+        .muziek{
+        margin-top: 15px;
+        text-align: center;
+        color: ghostwhite;
+        font-weight: bold;
+        }
+        
+
+        /*
+        li {
+        display: inline-block;
+        width: fit-content;
+        padding: 5px 5px 5px 5px;
+        text-align: center;
+        color: gold;
+        }
+        
+        ul a {
+        text-decoration: none;
+        color: ghostwhite;
+        }
+            
+        li:hover {
+        background-color: black;
+        border-style: none;
+        font-weight: 300;
+        }
+        */
+
+    form {
+    font-size: small;
+    padding: 5px 10px 5px 5px;
+    color: ghostwhite;
+    background-color: midnightblue;
+    width: fit-content;
+    box-sizing: border-box;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 7%;
+    border-style: groove;
+    border-color: navy;
+    }
+
+
+    h1 {
+    margin: -3px 0px 0px 5px;
+    }
+
+    
+    input {
+    display: block;
+    width: 400px;
+    padding: 5px 5px 5px 5px;
+    margin: 10px 0px 0px 5px;
+    box-sizing: border-box;
+    border-radius: 5px; box-shadow: inset 2px 2px 5px royalblue;
+    }
+    
+
+    textarea {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px 0px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    width: 400px;
+    max-width: 400px;
+    max-height: 275px;
+    min-height: 75px;
+    min-width: 400px;
+    height: 75px;
+    box-sizing: border-box;
+    border-radius: 5px; box-shadow: inset 2px 2px 5px royalblue;
+    }
+
+
+    button {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    text-align: center;
+    margin: 10px 0px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    box-sizing: border-box;
+    border-radius: 4px; box-shadow: inset 2px 2px 5px royalblue;
+    }
+    button:hover {
+    background-color: navy;
+    border-color: ghostwhite;
+    color: ghostwhite;
+    }
+    button:active {
+    background-color: deepskyblue;
+    color: ghostwhite;
+    border-radius: 4px; box-shadow: inset 2px 2px 5px royalblue;
+    }
+            
+    
+        footer {
+        font-size: small;
+        width: 100%;
+        padding: 10px 10px 10px 10px;
+        position: fixed;
+        bottom: 0%;
+        background-color: midnightblue;
+        color: ghostwhite;
+        text-align: center;
+        border-style: groove;
+        border-color: navy;
+        }

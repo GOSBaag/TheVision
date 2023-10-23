@@ -67,7 +67,7 @@
     width: fit-content;
     box-sizing: border-box;
     border-radius: 5px;
-    position: relative;
+    position: absolute;
     bottom: 7%;
     border-style: groove;
     border-color: navy;

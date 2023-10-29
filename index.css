@@ -23,10 +23,8 @@
 
     
     #footer {
-    position: absolute;
-    bottom: -20%;
     line-height: 50px;
-    left: 0%;
+    
     height: 50px;
     width: 100%;
     background: linear-gradient(to right, #240b36, #c31432, darkorange);
